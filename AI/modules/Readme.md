@@ -1,0 +1,75 @@
+# AI Custom modules
+## ⚙️ Automated AI Evaluation Framework ([AIeval](AIeval.py))
+
+To ensure rigorous, reproducible, and standardized evaluation across diverse architectures (Generative LLMs, Multiclass Classifiers, and Binary models), we engineered a custom Python evaluation module: `AIeval.py`. 
+
+This module automates data sanitization, handles complex CWE multi-label mappings, and generates deterministic performance telemetry.
+
+### Core Functionalities
+
+#### 1. `RemoveComments(df, targetColumn)`: Data Sanitization
+LLMs can suffer from "shortcut learning" or data leakage if source code comments contain hints about vulnerabilities. This function deterministically strips both single-line (`//`, `#`) and multi-line (`/* ... */`) comments while preserving the exact structural integrity of the AST/code block.
+#### Usage
+```python
+import pandas as pd
+from AIeval import RemoveComments
+
+# Load raw source code dataset
+df = pd.DataFrame({'source_code': ["/* Vulnerable buffer */ int x = 10; \nint y = 20; // init"]})
+
+# Sanitize dataset prior to model inference
+RemoveComments(df, targetColumn='source_code')
+```
+
+#### 2. `ModelEval()`: Standardized Telemetry Generation
+Evaluates model predictions dynamically based on the model's architecture (`binary`, `multiclass`, or `generation`). It calculates True Positives (TP), True Negatives (TN), False Positives (FP), False Negatives (FN), Precision, Recall, Accuracy, and F1-Scores (utilizing micro-averaging for complex multiclass/CWE evaluations).
+
+**Special Label Handling:**
+*   **Generative Parsing:** Utilizes regex to extract `CWE-ID` arrays from unstructured LLM text outputs.
+*   **Multi-Label Tolerance:** If a ground-truth label contains multiple CWEs (e.g., `CWE-459, CWE-787`), a model is penalized only if it fails to detect *any* of the correct mappings.
+
+#### Usage
+```python
+from AIeval import ModelEval
+
+# Evaluate an LLM's generative predictions against ground-truth CWEs
+ModelEval(
+    df=prediction_dataframe, 
+    modelType='generation', 
+    targetMethod='multiclass', 
+    filePath='./results/Model-X_evaluation.txt',
+    predictionString='llm_output', 
+    trueLabelString='ground_truth'
+)
+```
+
+#### 3. `PlotModelResults()`: Automated Visualization
+Parses the text-based telemetry outputs from `ModelEval` and automatically generates publication-ready bar charts mapping the confusion matrix for visual benchmarking.
+
+#### Usage
+```python
+from AIeval import PlotModelResults
+
+# Generate visual benchmark charts
+PlotModelResults(
+    modelName='Model-X', 
+    datasetName='Benchmark-Dataset-Y', 
+    resultsPath='./results/Model-X_evaluation.txt', 
+    outputPath='./results/plots/'
+)
+```
+
+### Complete Evaluation Pipeline Example
+```python
+import pandas as pd
+from AIeval import RemoveComments, ModelEval, PlotModelResults
+
+# 1. Load inference data
+df = pd.read_csv("model_inference_results.csv")
+
+# 2. Evaluate performance and extract metrics
+ModelEval(df, modelType='multiclass', filePath='eval_telemetry.txt')
+
+# 3. Generate publication-ready visualizations
+PlotModelResults('Model-X', 'Dataset-Y', 'eval_telemetry.txt', './output_plots/')
+```
