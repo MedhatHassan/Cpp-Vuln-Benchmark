@@ -81,7 +81,7 @@ This framework provides an automated pipeline to evaluate Large Language Models 
 
 ### Core Functionalities
 
-#### `LMM_runner(df, dataset_name, code_field, target_field='is_vul', class_field, model_name, model_path, max_new_tokens)`: LLM runner
+#### `LMM_runner()`: LLM runner
 
 This function supports running Hugging Face LLMs either directly from the Hugging Face Hub or from locally saved model directories.
 
@@ -100,7 +100,7 @@ df = pd.DataFrame({
     "source_code": ['inline template_t load(const std::string& filename)\n        {\n            return compile(detail::get_loader_ref()(filename));\n        }'],
 
     "cwe_type": ['CWE-22'],
-    
+
     'is_vul': [1]
 })
 
