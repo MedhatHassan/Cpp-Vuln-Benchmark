@@ -87,13 +87,8 @@ This function supports running Hugging Face LLMs either directly from the Huggin
 
 #### Usage
 ```python
-import torch
 import pandas as pd
-import numpy as np
-import time
-from transformers import pipeline
-import psutil
-from AIeval import RemoveComments
+from LLM_runner import LLM_runner
 
 # Load raw source code dataset
 df = pd.DataFrame({
