@@ -1,0 +1,11 @@
+Model Type: generation
+Method Type: binary
+True Positives: 6784
+True Negatives: 2788
+False Positives: 25584
+False Negatives: 231
+Total Population for Metrics: 35387
+Precision: 20.96%
+Recall: 96.71%
+F1 Score: 0.3445
+Accuracy: 27.05%
