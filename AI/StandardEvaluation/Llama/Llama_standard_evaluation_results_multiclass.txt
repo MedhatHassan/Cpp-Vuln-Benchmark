@@ -1,0 +1,2072 @@
+Model Type: generation
+Method Type: multiclass
+True Positives: 5094
+True Negatives: 24173198
+False Positives: 66897
+False Negatives: 30293
+Total Population for Metrics: 24275482
+Precision: 7.08%
+Recall: 14.40%
+F1 Score: 0.0949
+Accuracy: 99.60%
+
+
+Per-Label Metrics:
+  Label: CWE-0
+    TP: 0, FP: 76, TN: 35311, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-00
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0000
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-000000
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0001
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0002
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0003
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0004
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0005
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0006
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0007
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0008
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0009
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-001
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0010
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0011
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0012
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-003
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-007
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-01
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0108
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-011
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-012
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-0127
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-04
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-05
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-060
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-066
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-07
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-070
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-075
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-077
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-080
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-088
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-09
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-099
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1
+    TP: 0, FP: 13, TN: 35374, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-10
+    TP: 0, FP: 13, TN: 35374, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-100
+    TP: 0, FP: 2572, TN: 32815, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1000
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1001
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1002
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1003
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1004
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1005
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1006
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1007
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1008
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-101
+    TP: 0, FP: 198, TN: 35189, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-102
+    TP: 0, FP: 78, TN: 35309, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1021
+    TP: 0, FP: 0, TN: 35383, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-103
+    TP: 0, FP: 77, TN: 35310, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-104
+    TP: 0, FP: 80, TN: 35307, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-105
+    TP: 0, FP: 34, TN: 35353, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-106
+    TP: 0, FP: 215, TN: 35172, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-10646
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1066
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-107
+    TP: 0, FP: 141, TN: 35246, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1077
+    TP: 0, FP: 0, TN: 35383, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-108
+    TP: 0, FP: 33, TN: 35354, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-109
+    TP: 0, FP: 29, TN: 35358, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-11
+    TP: 0, FP: 414, TN: 34973, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-110
+    TP: 0, FP: 113, TN: 35274, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1100
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-111
+    TP: 0, FP: 25, TN: 35362, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-112
+    TP: 0, FP: 207, TN: 35180, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-113
+    TP: 0, FP: 26, TN: 35360, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-114
+    TP: 0, FP: 25, TN: 35362, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-115
+    TP: 0, FP: 23, TN: 35364, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-116
+    TP: 0, FP: 67, TN: 35313, FN: 7
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-117
+    TP: 0, FP: 34, TN: 35353, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-118
+    TP: 0, FP: 967, TN: 34417, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1187
+    TP: 0, FP: 0, TN: 35384, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-119
+    TP: 223, FP: 13116, TN: 21646, FN: 402
+    Precision: 1.67%, Recall: 35.68%, F1: 0.0319
+  Label: CWE-1199
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-12
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-120
+    TP: 4, FP: 750, TN: 34473, FN: 160
+    Precision: 0.53%, Recall: 2.44%, F1: 0.0087
+  Label: CWE-1200
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-121
+    TP: 0, FP: 1862, TN: 33519, FN: 6
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1211
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-122
+    TP: 1, FP: 813, TN: 34538, FN: 35
+    Precision: 0.12%, Recall: 2.78%, F1: 0.0024
+  Label: CWE-1220
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1221
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1222
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-123
+    TP: 0, FP: 218, TN: 35169, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-124
+    TP: 0, FP: 435, TN: 34952, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-125
+    TP: 18, FP: 2078, TN: 32874, FN: 417
+    Precision: 0.86%, Recall: 4.14%, F1: 0.0142
+  Label: CWE-126
+    TP: 0, FP: 378, TN: 35007, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-127
+    TP: 0, FP: 280, TN: 35107, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-128
+    TP: 0, FP: 357, TN: 35030, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1284
+    TP: 0, FP: 0, TN: 35372, FN: 15
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-129
+    TP: 0, FP: 166, TN: 35202, FN: 19
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-13
+    TP: 0, FP: 175, TN: 35212, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-130
+    TP: 0, FP: 598, TN: 34789, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-131
+    TP: 0, FP: 125, TN: 35256, FN: 6
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-132
+    TP: 0, FP: 163, TN: 35224, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-133
+    TP: 0, FP: 697, TN: 34690, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-134
+    TP: 0, FP: 550, TN: 34829, FN: 8
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-135
+    TP: 0, FP: 185, TN: 35202, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-136
+    TP: 0, FP: 221, TN: 35166, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-137
+    TP: 0, FP: 82, TN: 35305, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-138
+    TP: 0, FP: 62, TN: 35325, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-139
+    TP: 0, FP: 57, TN: 35330, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-14
+    TP: 0, FP: 147, TN: 35240, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-140
+    TP: 0, FP: 153, TN: 35234, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-141
+    TP: 0, FP: 122, TN: 35265, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-1411
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-142
+    TP: 0, FP: 54, TN: 35333, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-143
+    TP: 0, FP: 45, TN: 35342, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-144
+    TP: 0, FP: 42, TN: 35345, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-145
+    TP: 0, FP: 38, TN: 35349, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-146
+    TP: 0, FP: 31, TN: 35356, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-147
+    TP: 0, FP: 27, TN: 35360, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-148
+    TP: 0, FP: 46, TN: 35341, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-149
+    TP: 0, FP: 26, TN: 35361, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-15
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-150
+    TP: 0, FP: 35, TN: 35352, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-151
+    TP: 0, FP: 21, TN: 35366, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-152
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-153
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-154
+    TP: 0, FP: 22, TN: 35365, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-155
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-156
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-157
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-158
+    TP: 0, FP: 15, TN: 35372, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-159
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-16
+    TP: 0, FP: 14, TN: 35371, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-160
+    TP: 0, FP: 17, TN: 35370, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-161
+    TP: 0, FP: 14, TN: 35373, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-162
+    TP: 0, FP: 26, TN: 35361, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-163
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-164
+    TP: 0, FP: 25, TN: 35362, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-165
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-166
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-167
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-168
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-169
+    TP: 0, FP: 40, TN: 35347, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-17
+    TP: 0, FP: 14, TN: 35342, FN: 31
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-170
+    TP: 0, FP: 21, TN: 35366, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-171
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-172
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-173
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-174
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-175
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-176
+    TP: 0, FP: 180, TN: 35207, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-177
+    TP: 0, FP: 76, TN: 35311, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-178
+    TP: 0, FP: 40, TN: 35347, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-179
+    TP: 0, FP: 69, TN: 35318, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-18
+    TP: 0, FP: 130, TN: 35255, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-180
+    TP: 0, FP: 36, TN: 35351, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-181
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-182
+    TP: 0, FP: 22, TN: 35365, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-183
+    TP: 0, FP: 23, TN: 35364, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-184
+    TP: 0, FP: 29, TN: 35356, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-185
+    TP: 0, FP: 12, TN: 35375, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-186
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-187
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-188
+    TP: 0, FP: 27, TN: 35360, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-189
+    TP: 0, FP: 4, TN: 35278, FN: 105
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-19
+    TP: 0, FP: 7, TN: 35350, FN: 30
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-190
+    TP: 0, FP: 21, TN: 35065, FN: 301
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-191
+    TP: 0, FP: 17, TN: 35365, FN: 5
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-192
+    TP: 0, FP: 26, TN: 35361, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-193
+    TP: 0, FP: 35, TN: 35334, FN: 18
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-194
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-195
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-196
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-197
+    TP: 0, FP: 1, TN: 35385, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-198
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-199
+    TP: 0, FP: 12, TN: 35375, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2
+    TP: 0, FP: 10, TN: 35377, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-20
+    TP: 3, FP: 302, TN: 34606, FN: 476
+    Precision: 0.98%, Recall: 0.63%, F1: 0.0077
+  Label: CWE-200
+    TP: 1, FP: 307, TN: 34789, FN: 290
+    Precision: 0.32%, Recall: 0.34%, F1: 0.0033
+  Label: CWE-2000
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-201
+    TP: 0, FP: 16, TN: 35371, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-202
+    TP: 0, FP: 17, TN: 35370, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-203
+    TP: 0, FP: 9, TN: 35371, FN: 7
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-204
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-205
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-206
+    TP: 0, FP: 12, TN: 35375, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-207
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-208
+    TP: 0, FP: 10, TN: 35376, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-209
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-21
+    TP: 0, FP: 17, TN: 35370, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-210
+    TP: 0, FP: 11, TN: 35376, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2100
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-211
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-212
+    TP: 0, FP: 13, TN: 35365, FN: 9
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-213
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-214
+    TP: 0, FP: 95, TN: 35292, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-215
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-216
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-217
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-218
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-219
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-22
+    TP: 2, FP: 1050, TN: 34265, FN: 70
+    Precision: 0.19%, Recall: 2.78%, F1: 0.0036
+  Label: CWE-220
+    TP: 0, FP: 33, TN: 35354, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2200
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2203
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2204
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2205
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2206
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2207
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2208
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2209
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-221
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2210
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2211
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2212
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2213
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2214
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2215
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2216
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2217
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2218
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2219
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-222
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2220
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2221
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2222
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2223
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2224
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2225
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2226
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2227
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2228
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2229
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-223
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-224
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-225
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-226
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-227
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-228
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-229
+    TP: 0, FP: 3, TN: 35382, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-23
+    TP: 0, FP: 24, TN: 35363, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-230
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2300
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-231
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-232
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-233
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-234
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-235
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-236
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-237
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-238
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-239
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-24
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-240
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2400
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-241
+    TP: 0, FP: 4, TN: 35379, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-242
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-243
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-244
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-245
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-246
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-247
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-248
+    TP: 0, FP: 0, TN: 35386, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-25
+    TP: 0, FP: 39, TN: 35348, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-250
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-2500
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-252
+    TP: 0, FP: 2, TN: 35370, FN: 15
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-254
+    TP: 0, FP: 3, TN: 35301, FN: 83
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-255
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-256
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-259
+    TP: 0, FP: 105, TN: 35282, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-26
+    TP: 0, FP: 58, TN: 35329, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-260
+    TP: 0, FP: 103, TN: 35284, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-261
+    TP: 0, FP: 24, TN: 35363, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-262
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-263
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-264
+    TP: 1, FP: 105, TN: 35034, FN: 247
+    Precision: 0.94%, Recall: 0.40%, F1: 0.0056
+  Label: CWE-265
+    TP: 0, FP: 32, TN: 35355, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-266
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-267
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-268
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-269
+    TP: 0, FP: 69, TN: 35284, FN: 34
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-27
+    TP: 0, FP: 20, TN: 35367, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-270
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-271
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-272
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-273
+    TP: 0, FP: 1, TN: 35384, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-274
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-275
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-276
+    TP: 0, FP: 63, TN: 35317, FN: 7
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-277
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-278
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-279
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-28
+    TP: 0, FP: 29, TN: 35358, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-280
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-281
+    TP: 0, FP: 24, TN: 35363, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-282
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-283
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-284
+    TP: 0, FP: 1, TN: 35354, FN: 32
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-285
+    TP: 0, FP: 0, TN: 35385, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-287
+    TP: 0, FP: 2, TN: 35326, FN: 59
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-289
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-29
+    TP: 0, FP: 11, TN: 35376, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-290
+    TP: 0, FP: 3, TN: 35379, FN: 5
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-295
+    TP: 0, FP: 0, TN: 35357, FN: 30
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-296
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-297
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-299
+    TP: 0, FP: 23, TN: 35364, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-3
+    TP: 0, FP: 15, TN: 35372, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-30
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-300
+    TP: 0, FP: 56, TN: 35331, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-3000
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-301
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-302
+    TP: 0, FP: 24, TN: 35363, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-304
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-305
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-306
+    TP: 0, FP: 0, TN: 35382, FN: 5
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-307
+    TP: 0, FP: 3, TN: 35383, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-308
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-309
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-31
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-310
+    TP: 0, FP: 14, TN: 35341, FN: 32
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-312
+    TP: 0, FP: 47, TN: 35340, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-313
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-314
+    TP: 0, FP: 11, TN: 35376, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-315
+    TP: 0, FP: 184, TN: 35203, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-316
+    TP: 0, FP: 22, TN: 35365, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-317
+    TP: 0, FP: 49, TN: 35338, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-318
+    TP: 0, FP: 12, TN: 35375, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-319
+    TP: 0, FP: 12, TN: 35371, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-32
+    TP: 0, FP: 200, TN: 35187, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-320
+    TP: 0, FP: 211, TN: 35175, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-321
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-322
+    TP: 0, FP: 11, TN: 35376, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-323
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-324
+    TP: 0, FP: 12, TN: 35375, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-325
+    TP: 0, FP: 10, TN: 35375, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-326
+    TP: 0, FP: 901, TN: 34472, FN: 14
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-327
+    TP: 0, FP: 562, TN: 34817, FN: 8
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-328
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-329
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-33
+    TP: 0, FP: 33, TN: 35354, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-330
+    TP: 0, FP: 6, TN: 35361, FN: 20
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-331
+    TP: 0, FP: 1, TN: 35380, FN: 6
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-332
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-333
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-334
+    TP: 0, FP: 15, TN: 35372, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-335
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-336
+    TP: 0, FP: 12, TN: 35375, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-337
+    TP: 0, FP: 5, TN: 35379, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-338
+    TP: 0, FP: 2, TN: 35382, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-339
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-34
+    TP: 0, FP: 24, TN: 35363, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-344
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-345
+    TP: 0, FP: 0, TN: 35378, FN: 9
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-346
+    TP: 0, FP: 0, TN: 35384, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-347
+    TP: 0, FP: 0, TN: 35379, FN: 8
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-349
+    TP: 0, FP: 0, TN: 35386, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-35
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-350
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-354
+    TP: 0, FP: 0, TN: 35374, FN: 13
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-36
+    TP: 0, FP: 40, TN: 35347, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-360
+    TP: 0, FP: 11, TN: 35376, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-361
+    TP: 0, FP: 0, TN: 35386, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-362
+    TP: 1, FP: 318, TN: 34739, FN: 329
+    Precision: 0.31%, Recall: 0.30%, F1: 0.0031
+  Label: CWE-366
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-367
+    TP: 0, FP: 0, TN: 35362, FN: 25
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-369
+    TP: 0, FP: 0, TN: 35347, FN: 40
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-37
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-370
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-371
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-372
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-374
+    TP: 0, FP: 342, TN: 35045, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-375
+    TP: 0, FP: 188, TN: 35199, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-376
+    TP: 0, FP: 19, TN: 35368, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-377
+    TP: 0, FP: 21, TN: 35366, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-378
+    TP: 0, FP: 36, TN: 35351, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-379
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-38
+    TP: 0, FP: 136, TN: 35251, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-380
+    TP: 0, FP: 87, TN: 35300, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-381
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-382
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-383
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-384
+    TP: 0, FP: 3, TN: 35380, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-385
+    TP: 0, FP: 486, TN: 34897, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-386
+    TP: 0, FP: 671, TN: 34716, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-387
+    TP: 0, FP: 38, TN: 35349, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-388
+    TP: 0, FP: 32, TN: 35352, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-389
+    TP: 0, FP: 134, TN: 35253, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-39
+    TP: 0, FP: 91, TN: 35296, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-390
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-391
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-392
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-393
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-394
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-395
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-396
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-397
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-398
+    TP: 0, FP: 19, TN: 35368, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-399
+    TP: 11, FP: 1622, TN: 33534, FN: 220
+    Precision: 0.67%, Recall: 4.76%, F1: 0.0118
+  Label: CWE-4
+    TP: 0, FP: 14, TN: 35373, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-40
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-400
+    TP: 3, FP: 529, TN: 34721, FN: 134
+    Precision: 0.56%, Recall: 2.19%, F1: 0.0090
+  Label: CWE-4000
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-401
+    TP: 0, FP: 76, TN: 35198, FN: 113
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-402
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-403
+    TP: 0, FP: 159, TN: 35228, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-404
+    TP: 7, FP: 2611, TN: 32741, FN: 28
+    Precision: 0.27%, Recall: 20.00%, F1: 0.0053
+  Label: CWE-405
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-406
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-407
+    TP: 0, FP: 5, TN: 35378, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-408
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-409
+    TP: 0, FP: 19, TN: 35363, FN: 5
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-41
+    TP: 0, FP: 53, TN: 35334, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-410
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-411
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-412
+    TP: 0, FP: 28, TN: 35359, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-413
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-414
+    TP: 0, FP: 28, TN: 35359, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-415
+    TP: 0, FP: 31, TN: 35273, FN: 83
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-416
+    TP: 9, FP: 547, TN: 34320, FN: 511
+    Precision: 1.62%, Recall: 1.73%, F1: 0.0167
+  Label: CWE-417
+    TP: 0, FP: 13, TN: 35374, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-418
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-419
+    TP: 0, FP: 25, TN: 35362, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-42
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-420
+    TP: 0, FP: 17, TN: 35370, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-421
+    TP: 0, FP: 52, TN: 35335, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-422
+    TP: 0, FP: 21, TN: 35366, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-423
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-424
+    TP: 0, FP: 10, TN: 35377, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-425
+    TP: 0, FP: 13, TN: 35374, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-426
+    TP: 0, FP: 237, TN: 35143, FN: 7
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-427
+    TP: 0, FP: 80, TN: 35306, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-428
+    TP: 0, FP: 12, TN: 35375, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-429
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-43
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-430
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-431
+    TP: 0, FP: 13, TN: 35374, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-432
+    TP: 0, FP: 14, TN: 35373, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-433
+    TP: 0, FP: 10, TN: 35377, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-434
+    TP: 0, FP: 11, TN: 35373, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-435
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-436
+    TP: 0, FP: 96, TN: 35285, FN: 6
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-437
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-438
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-439
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-44
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-440
+    TP: 0, FP: 3, TN: 35376, FN: 8
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-441
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-442
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-443
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-444
+    TP: 0, FP: 3, TN: 35377, FN: 7
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-445
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-446
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-447
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-448
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-449
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-45
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-450
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-451
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-455
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-456
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-459
+    TP: 0, FP: 5, TN: 35350, FN: 32
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-46
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-460
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-461
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-462
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-463
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-47
+    TP: 0, FP: 28, TN: 35359, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-471
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-473
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-475
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-476
+    TP: 16, FP: 1103, TN: 33700, FN: 568
+    Precision: 1.43%, Recall: 2.74%, F1: 0.0188
+  Label: CWE-477
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-479
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-48
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-480
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-482
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-484
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-485
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-486
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-488
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-49
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-491
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-493
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-496
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-499
+    TP: 0, FP: 201, TN: 35186, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-5
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-50
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-500
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-501
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-502
+    TP: 0, FP: 8, TN: 35363, FN: 16
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-503
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-504
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-51
+    TP: 0, FP: 211, TN: 35176, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-512
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-513
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-519
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-52
+    TP: 0, FP: 34, TN: 35353, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-521
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-522
+    TP: 0, FP: 9, TN: 35376, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-523
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-524
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-525
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-53
+    TP: 0, FP: 139, TN: 35248, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-532
+    TP: 0, FP: 4, TN: 35380, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-534
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-537
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-539
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-54
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-540
+    TP: 0, FP: 13, TN: 35374, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-541
+    TP: 0, FP: 35, TN: 35352, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-542
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-543
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-544
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-550
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-552
+    TP: 0, FP: 0, TN: 35382, FN: 5
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-553
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-554
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-555
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-556
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-557
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-558
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-559
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-56
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-560
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-561
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-562
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-563
+    TP: 0, FP: 26, TN: 35361, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-564
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-565
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-566
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-567
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-568
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-569
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-570
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-571
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-572
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-573
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-574
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-575
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-576
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-577
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-579
+    TP: 0, FP: 26, TN: 35361, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-584
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-59
+    TP: 0, FP: 15, TN: 35339, FN: 33
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-598
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-599
+    TP: 0, FP: 10, TN: 35377, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-6
+    TP: 0, FP: 7, TN: 35380, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-60
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-600
+    TP: 0, FP: 38, TN: 35349, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-6000
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-601
+    TP: 0, FP: 12, TN: 35373, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-602
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-603
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-604
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-605
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-606
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-607
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-608
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-609
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-61
+    TP: 0, FP: 13, TN: 35374, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-610
+    TP: 0, FP: 1, TN: 35385, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-611
+    TP: 0, FP: 2, TN: 35371, FN: 14
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-612
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-613
+    TP: 0, FP: 0, TN: 35383, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-617
+    TP: 0, FP: 0, TN: 35295, FN: 92
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-625
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-626
+    TP: 0, FP: 5, TN: 35378, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-634
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-635
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-639
+    TP: 0, FP: 0, TN: 35386, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-64
+    TP: 0, FP: 1270, TN: 34117, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-640
+    TP: 0, FP: 26, TN: 35361, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-641
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-646
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-649
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-65
+    TP: 0, FP: 9, TN: 35378, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-655
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-66
+    TP: 0, FP: 113, TN: 35274, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-662
+    TP: 0, FP: 0, TN: 35376, FN: 11
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-663
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-665
+    TP: 0, FP: 6, TN: 35360, FN: 21
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-666
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-667
+    TP: 0, FP: 0, TN: 35361, FN: 26
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-668
+    TP: 0, FP: 0, TN: 35364, FN: 23
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-669
+    TP: 0, FP: 24, TN: 35363, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-67
+    TP: 0, FP: 13, TN: 35374, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-670
+    TP: 0, FP: 0, TN: 35383, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-671
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-672
+    TP: 0, FP: 0, TN: 35383, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-673
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-674
+    TP: 0, FP: 0, TN: 35321, FN: 66
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-675
+    TP: 0, FP: 39, TN: 35348, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-676
+    TP: 0, FP: 85, TN: 35302, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-677
+    TP: 0, FP: 5, TN: 35382, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-679
+    TP: 0, FP: 22, TN: 35365, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-68
+    TP: 0, FP: 264, TN: 35123, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-681
+    TP: 0, FP: 0, TN: 35359, FN: 28
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-682
+    TP: 0, FP: 0, TN: 35377, FN: 10
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-686
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-687
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-69
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-690
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-693
+    TP: 0, FP: 0, TN: 35385, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-697
+    TP: 0, FP: 0, TN: 35381, FN: 6
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-699
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-7
+    TP: 0, FP: 8, TN: 35379, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-70
+    TP: 0, FP: 18, TN: 35369, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-700
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-701
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-702
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-703
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-704
+    TP: 0, FP: 2, TN: 35373, FN: 12
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-706
+    TP: 0, FP: 1, TN: 35383, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-707
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-71
+    TP: 0, FP: 846, TN: 34541, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-72
+    TP: 0, FP: 155, TN: 35232, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-73
+    TP: 0, FP: 3, TN: 35383, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-732
+    TP: 0, FP: 0, TN: 35366, FN: 21
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-733
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-74
+    TP: 0, FP: 25, TN: 35323, FN: 39
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-749
+    TP: 0, FP: 18, TN: 35369, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-75
+    TP: 0, FP: 56, TN: 35331, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-751
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-754
+    TP: 0, FP: 0, TN: 35374, FN: 13
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-755
+    TP: 0, FP: 0, TN: 35372, FN: 15
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-76
+    TP: 0, FP: 262, TN: 35125, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-763
+    TP: 0, FP: 0, TN: 35371, FN: 16
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-766
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-77
+    TP: 1, FP: 351, TN: 35024, FN: 11
+    Precision: 0.28%, Recall: 8.33%, F1: 0.0055
+  Label: CWE-770
+    TP: 0, FP: 0, TN: 35352, FN: 35
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-772
+    TP: 0, FP: 38, TN: 35317, FN: 32
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-776
+    TP: 0, FP: 0, TN: 35385, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-778
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-779
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-78
+    TP: 3, FP: 2583, TN: 32773, FN: 28
+    Precision: 0.12%, Recall: 9.68%, F1: 0.0023
+  Label: CWE-782
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-785
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-787
+    TP: 0, FP: 1, TN: 34830, FN: 556
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-788
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-79
+    TP: 2, FP: 2831, TN: 32528, FN: 26
+    Precision: 0.07%, Recall: 7.14%, F1: 0.0014
+  Label: CWE-795
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-8
+    TP: 0, FP: 6, TN: 35381, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-80
+    TP: 0, FP: 1934, TN: 33453, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-800
+    TP: 0, FP: 4, TN: 35383, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-8007
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-802
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-803
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-804
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-805
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-81
+    TP: 0, FP: 476, TN: 34911, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-82
+    TP: 0, FP: 451, TN: 34936, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-821
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-822
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-823
+    TP: 0, FP: 0, TN: 35386, FN: 1
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-824
+    TP: 0, FP: 1, TN: 35377, FN: 9
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-83
+    TP: 0, FP: 160, TN: 35227, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-833
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-834
+    TP: 0, FP: 0, TN: 35358, FN: 29
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-835
+    TP: 0, FP: 0, TN: 35320, FN: 67
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-838
+    TP: 0, FP: 0, TN: 35385, FN: 2
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-84
+    TP: 0, FP: 114, TN: 35273, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-843
+    TP: 0, FP: 0, TN: 35368, FN: 19
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-85
+    TP: 0, FP: 106, TN: 35281, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-86
+    TP: 0, FP: 75, TN: 35312, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-862
+    TP: 0, FP: 1, TN: 35368, FN: 18
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-863
+    TP: 0, FP: 0, TN: 35368, FN: 19
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-87
+    TP: 0, FP: 53, TN: 35334, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-88
+    TP: 0, FP: 1173, TN: 34211, FN: 3
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-89
+    TP: 1, FP: 3658, TN: 31717, FN: 11
+    Precision: 0.03%, Recall: 8.33%, F1: 0.0005
+  Label: CWE-895
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-9
+    TP: 0, FP: 146, TN: 35241, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-90
+    TP: 0, FP: 86, TN: 35301, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-900
+    TP: 0, FP: 3, TN: 35384, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-901
+    TP: 0, FP: 2, TN: 35385, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-908
+    TP: 0, FP: 0, TN: 35350, FN: 37
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-909
+    TP: 0, FP: 0, TN: 35344, FN: 43
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-91
+    TP: 0, FP: 62, TN: 35325, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-911
+    TP: 0, FP: 0, TN: 35383, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-913
+    TP: 0, FP: 0, TN: 35379, FN: 8
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-918
+    TP: 0, FP: 0, TN: 35383, FN: 4
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-92
+    TP: 0, FP: 37, TN: 35350, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-93
+    TP: 0, FP: 23, TN: 35364, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-94
+    TP: 0, FP: 28, TN: 35347, FN: 12
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-95
+    TP: 0, FP: 20, TN: 35367, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-96
+    TP: 0, FP: 19, TN: 35368, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-97
+    TP: 0, FP: 19, TN: 35368, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-98
+    TP: 0, FP: 14, TN: 35373, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-99
+    TP: 0, FP: 271, TN: 35116, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: CWE-999
+    TP: 0, FP: 1, TN: 35386, FN: 0
+    Precision: 0.00%, Recall: 0.00%, F1: 0.0000
+  Label: Safe
+    TP: 4787, FP: 1139, TN: 5876, FN: 23585
+    Precision: 80.78%, Recall: 16.87%, F1: 0.2791
