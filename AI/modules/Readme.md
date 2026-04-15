@@ -73,3 +73,40 @@ ModelEval(df, modelType='multiclass', filePath='eval_telemetry.txt')
 # 3. Generate publication-ready visualizations
 PlotModelResults('Model-X', 'Dataset-Y', 'eval_telemetry.txt', './output_plots/')
 ```
+
+## LLM Runner Framework for Code Vulnerability Detection ([LLM_runner](LLM_runner.py))
+
+
+This framework provides an automated pipeline to evaluate Large Language Models (LLMs) on C/C++ code vulnerability detection tasks using Hugging Face transformers.
+
+### Core Functionalities
+
+#### `LMM_runner()`: LLM runner
+
+This function supports running Hugging Face LLMs either directly from the Hugging Face Hub or from locally saved model directories.
+
+#### Usage
+```python
+import pandas as pd
+from LLM_runner import LLM_runner
+
+# Load raw source code dataset
+df = pd.DataFrame({
+    "source_code": ['inline template_t load(const std::string& filename)\n        {\n            return compile(detail::get_loader_ref()(filename));\n        }'],
+
+    "cwe_type": ['CWE-22'],
+
+    'is_vul': [1]
+})
+
+result_df = LLM_runner(
+    df=df,
+    dataset_name="code_vulnerability_df",
+    code_field="source_code",
+    target_field="is_vul",
+    class_field="cwe_type",
+    model_name="LLM_name",
+    model_path="HuggingFace_hub_path or local_path",
+    max_new_tokens=256
+)
+```
