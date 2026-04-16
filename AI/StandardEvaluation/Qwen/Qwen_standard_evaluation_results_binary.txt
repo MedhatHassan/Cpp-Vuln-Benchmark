@@ -1,0 +1,9 @@
+Model Type: generation
+True Positives: 2230
+True Negatives: 19362
+False Positives: 9010
+False Negatives: 4785
+Precision: 19.84%
+Recall: 31.79%
+F1 Score: 0.2443
+Accuracy: 61.02%
