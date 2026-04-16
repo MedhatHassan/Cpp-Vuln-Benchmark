@@ -1,0 +1,8 @@
+Total files: 1110
+True Positives (TP): 4
+False Negatives (FN): 551
+False Positives (FP): 0
+True Negatives (TN): 555
+Precision: 100.00%
+Recall: 0.72%
+Accuracy: 50.36%

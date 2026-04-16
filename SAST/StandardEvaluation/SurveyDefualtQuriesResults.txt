@@ -1,0 +1,74 @@
+NOTE ALL THE DATASET RATIO IS 50%/50% SAFE/VULN
+
+CWE-119:
+Total files: 3440
+True Positives (TP): 1
+False Negatives (FN): 1719
+False Positives (FP): 2
+True Negatives (TN): 1718
+Precision: 33.33%
+Recall: 0.06%
+Accuracy: 49.97%
+
+CWE-120:
+Total files: 884
+True Positives (TP): 64
+False Negatives (FN): 378
+False Positives (FP): 22
+True Negatives (TN): 420
+Precision: 74.42%
+Recall: 14.48%
+Accuracy: 54.75%
+
+CWE-119 & CWE-120:
+Total files: 4324
+True Positives (TP): 290
+False Negatives (FN): 1872
+False Positives (FP): 83
+True Negatives (TN): 2079
+Precision: 77.75%
+Recall: 13.41%
+Accuracy: 54.79%
+
+
+CWE-134:
+Total files: 60
+True Positives (TP): 2
+False Negatives (FN): 28
+False Positives (FP): 0
+True Negatives (TN): 30
+Precision: 100.00%
+Recall: 6.67%
+Accuracy: 53.33%
+
+CWE-190:
+Total files: 1526
+True Positives (TP): 39
+False Negatives (FN): 724
+False Positives (FP): 14
+True Negatives (TN): 749
+Precision: 73.58%
+Recall: 5.11%
+Accuracy: 51.64%
+
+CWE-362:
+Total files: 1110
+True Positives (TP): 4
+False Negatives (FN): 551
+False Positives (FP): 0
+True Negatives (TN): 555
+Precision: 100.00%
+Recall: 0.72%
+Accuracy: 50.36%
+
+CWE-252:
+Total files: 84
+True Positives (TP): 1
+False Negatives (FN): 41
+False Positives (FP): 1
+True Negatives (TN): 41
+Precision: 50.00%
+Recall: 2.38%
+Accuracy: 50.00%
+
+

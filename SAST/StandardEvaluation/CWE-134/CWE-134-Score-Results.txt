@@ -1,0 +1,7 @@
+True Positives (TP): 3
+False Negatives (FN): 21
+False Positives (FP): 0
+True Negatives (TN): 24
+Precision: 100.00%
+Recall: 12.50%
+Accuracy: 56.25%
