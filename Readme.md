@@ -31,12 +31,16 @@ This research was rigorously peer-reviewed and accepted at the IEEE 3SCEA 2026 C
 4. **Graph-Based Superiority:** We demonstrate that graphbased methods consistently outperform sequence-based approaches, providing deeper semantic insights for vulnerability detection.
 5. **Roadmap for Future Research:** We identify systematic limitations in current methodologies and outline specific development areas to drive continuous improvement in automated detection.
 
-## 🗂️ Repository Structure (Example)
-*Note: Adjust these folders based on your actual repository setup.*
-- `/llm_eval/` - Scripts and zero-shot prompts used to benchmark Qwen, Llama 3.2, Gemma 2, DeepSeek, and GPT-4o mini.
-- `/sast_queries/` - Custom and default CodeQL queries used for the real-world dataset evaluation.
-- `/dataset_analysis/` - Scripts used to identify the hash overlaps and duplication between MegaVul and BigVul.
-- `/results/` - Raw CSV outputs, F1 score calculations, and Signal-to-Noise chart generation data.
+## 🗂️ Repository Structure
+The repository is structured into distinct phases of our research to ensure 100% reproducibility of our empirical findings.
+
+- `/AI/` - Contains the complete Large Language Model (LLM) evaluation pipeline.
+  - `/modules/` - Custom Python automation modules (`AIeval.py`, `LLM_runner.py`) for dataset sanitization, API execution, and telemetry generation.
+  - `/StandardEvaluation/` - Zero-shot prompts, raw API logs, confusion matrices, and Jupyter notebooks for DeepSeek v3.2, Gemma 2, Llama 3.2, Qwen, and GPT-4o mini.
+- `/SAST/` - Contains the Static Application Security Testing benchmarking artifacts.
+  - `/modules/` - High-performance multithreaded evaluation wrapper (`SATeval.py`) for graph-based scanning.
+  - `/StandardEvaluation/` - The `Balanced_MegaVuln_Subset_Code.zip` (ground-truth C/C++ dataset) alongside the raw telemetry and CWE mapping for Joern's default queries.
+- `/Datasets/` - Empirical data leakage scripts (`compareDatasets.ipynb`) mathematically proving the 62% cryptographic hash collision between the MegaVul and BigVul benchmark datasets.
 
 ## 📊 Evaluation Data Highlights
 | Model | Binary Recall | False Positive Rate | Multiclass F1 |
@@ -44,6 +48,13 @@ This research was rigorously peer-reviewed and accepted at the IEEE 3SCEA 2026 C
 | **DeepSeek v3.2** | 96.71% | > 90.0% | 0.0982 |
 | **Gemma 2** | 88.18% | > 87.0% | 0.0024 |
 | **GPT-4o mini** | 39.63% | 23.6% | **0.6180** |
+
+## ⚙️ Custom Evaluation Frameworks
+
+To guarantee rigorous, standardized evaluation across diverse architectures (Generative LLMs vs. Binary SAST tools), we engineered two custom evaluation modules, available in their respective `/modules/` directories:
+
+*   **`AIeval.py` (LLM Telemetry):** Automates source code sanitization (removing comments to prevent LLM shortcut learning), parses unstructured generative text via regex to extract CWE-IDs, and generates micro-averaged F1/Accuracy matrices.
+*   **`SATeval.py` (SAST Automation):** A high-performance wrapper for Code Property Graph (CPG) scanners like Joern. It utilizes concurrent thread-pooling to dispatch queries across thousands of files, parses terminal outputs, and automatically maps findings against ground-truth directories.
 
 ## 📝 Citation
 This paper is officially published in **IEEE Xplore** and indexed in **Scopus**. If you use this benchmark, code, or our dataset analysis in your research, please cite our paper:
