@@ -4,7 +4,7 @@ import numpy as np
 import time
 from transformers import pipeline
 import psutil
-# from AIeval import RemoveComments
+from AIeval import RemoveComments
 
 
 def LLM_runner(df, dataset_name=None, code_field='Function', target_field='is_vul', class_field='CWE',
@@ -27,7 +27,7 @@ def LLM_runner(df, dataset_name=None, code_field='Function', target_field='is_vu
     Dataframe with 3 columns of true labels, true CWE classes and model's output generation
     """
         
-    # RemoveComments(df, code_field) # remove comments from each code in the df
+    RemoveComments(df, code_field) # remove comments from each the code
     
     codes = df[code_field].tolist()
     target_labels = df[target_field].tolist()
