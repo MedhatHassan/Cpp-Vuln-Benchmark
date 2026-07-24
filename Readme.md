@@ -1,9 +1,9 @@
-# 🛡️ Cpp-Vuln-Benchmark: The Reasoning Gap in Automated Vulnerability Detection
+# 🛡️ Cpp-Vuln-Benchmark <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Reasoning Gap in Automated Vulnerability Detection
 <div align="center">
 
 [![Published in](https://img.shields.io/badge/Published_in-IEEE_Xplore-00629B.svg?logo=ieee&logoColor=white)](#)
 [![Indexed by](https://img.shields.io/badge/Indexed_by-Scopus-E9711C.svg)](#)
-[![Conference](https://img.shields.io/badge/Accepted-IEEE_3SCEA_2026-blue)](https://ufe.edu.eg/3scea2026/)
+[![Conference](https://img.shields.io/badge/Conference-IEEE_3SCEA_2026)](https://ufe.edu.eg/3scea2026/)
 [![Target](https://img.shields.io/badge/Target_Code-C%2FC%2B%2B-00599C.svg?logo=c%2B%2B&logoColor=white)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Domain](https://img.shields.io/badge/Domain-Cybersecurity%20%7C%20AppSec-red.svg)](#)
@@ -12,15 +12,29 @@
 
 </div>
 
-> Official repository for the paper: **"The Reasoning Gap in Automated Vulnerability Detection: A Comprehensive Benchmark of LLMs, SAST, DAST, and Graph-based Approaches"** accepted at the IEEE 3SCEA2026 Conference. Published in the **IEEE Xplore® Digital Library** and indexed by **Scopus**.
+> Official repository for the paper **"The Reasoning Gap in Automated Vulnerability Detection: A Comprehensive Benchmark of LLMs, SAST, DAST, and Graph-based Approaches"**, published in the **IEEE Xplore® Digital Library** following presentation at the **IEEE 3SCEA 2026 Conference**, and indexed by **Scopus**.
 
 ## 📖 Overview
 Security vulnerabilities in modern software ecosystems continually outpace traditional remediation strategies. While this benchmark utilizes C/C++ as **the ultimate architectural stress test** chosen for its extreme complexity, direct memory access, and the highest volume of mapped CWEs—the fundamental paradigms, graph representations, and AI evaluation frameworks established here are entirely **language-agnostic**.
 
 Representing months of rigorous empirical testing and synthesizing insights from **over 50 state-of-the-art academic papers**, this repository serves as a definitive meta-analysis. It formally bridges the gap between legacy Application Security Testing (AST) and emerging AI-driven paradigms.
+```txt
+   Datasets
+      ↓
+  Sanitization
+      ↓
+     SAST
+     DAST
+     LLMs
+ Graph Models
+      ↓
+  Evaluation
+      ↓
+   Metrics
+```
 
 ### 🌟 Peer Review & Academic Recognition
-This research was rigorously peer-reviewed and accepted at the IEEE 3SCEA 2026 Conference. The review committee highlighted the work as a benchmark-setting study:
+This research was rigorously peer-reviewed and Published in IEEE Xplore at the IEEE 3SCEA 2026 Conference. The review committee highlighted the work as a benchmark-setting study:
 
 > *"This is a high-quality, impactful paper that sets **a new standard** for benchmarking automated vulnerability detection techniques. The analysis is rigorous, the conclusions are well-supported, and the identification of the 'Reasoning Gap' is both novel and timely." — IEEE Review Committee*
 
@@ -28,7 +42,7 @@ This research was rigorously peer-reviewed and accepted at the IEEE 3SCEA 2026 C
 1. **The Reasoning Gap:** We evaluate state-of-the-art LLMs (including GPT-4o mini) across binary and multiclass tasks, uncovering a *“Reasoning Gap”* where open-weight models struggle with precision despite high recall.
 2. **Comprehensive Methodology Review:** We analyze the efficacy of AI-Driven, Graph-based, and AST approaches for C/C++ vulnerability detection.
 3. **Dataset Integrity:** We quantified significant data duplication between standard benchmarks, revealing that 62% of BigVul’s unique hashes exist within MegaVul, leading to severe data leakage in AI model training.
-4. **Graph-Based Superiority:** We demonstrate that graphbased methods consistently outperform sequence-based approaches, providing deeper semantic insights for vulnerability detection.
+4. **Graph-Based Superiority:** We demonstrate that graph-based methods consistently outperform sequence-based approaches, providing deeper semantic insights for vulnerability detection.
 5. **Roadmap for Future Research:** We identify systematic limitations in current methodologies and outline specific development areas to drive continuous improvement in automated detection.
 
 ## 🗂️ Repository Structure
@@ -41,6 +55,8 @@ The repository is structured into distinct phases of our research to ensure 100%
   - `/modules/` - High-performance multithreaded evaluation wrapper (`SATeval.py`) for graph-based scanning.
   - `/StandardEvaluation/` - The `Balanced_MegaVuln_Subset_Code.zip` (ground-truth C/C++ dataset) alongside the raw telemetry and CWE mapping for Joern's default queries.
 - `/Datasets/` - Empirical data leakage scripts (`compareDatasets.ipynb`) mathematically proving the 62% cryptographic hash collision between the MegaVul and BigVul benchmark datasets.
+- `IEEE_3SCEA_2026_Presentation.pdf` The offical presentation of IEEE 3SCEA2026.
+- `The_Reasoning_Gap_in_Automated_Vulnerability_Detection_A_Comprehensive_Benchmark.pdf` The offical paper.
 
 ## 📊 Evaluation Data Highlights
 | Model | Binary Recall | False Positive Rate | Multiclass F1 |
@@ -59,22 +75,31 @@ To guarantee rigorous, standardized evaluation across diverse architectures (Gen
 ## 📝 Citation
 This paper is officially published in **IEEE Xplore** and indexed in **Scopus**. If you use this benchmark, code, or our dataset analysis in your research, please cite our paper:
 
-**IEEE Xplore Link:** `[Link will be updated upon publication]`  
-**DOI:** `[Pending]`
-
+**IEEE Xplore Link:** [Link](https://ieeexplore.ieee.org/document/11603078)  
+**DOI:** `10.1109/3SCEA68071.2026`
+#### Bibtex Format
 ```bibtex
-@inproceedings{ali2026reasoning,
-  title={The Reasoning Gap in Automated Vulnerability Detection: A Comprehensive Benchmark of LLMs, SAST, DAST, and Graph-based Approaches},
+@INPROCEEDINGS{11603078,
   author={Ali, Medhat Hassan and Sakr, Youssef and Eissa, Abdullah and Aljazairy, Mohammed and Rashad, Hisham Salah},
-  booktitle={2026 3rd International Conference on Smart Computing and Electronic Applications (IEEE 3SCEA)},
+  booktitle={2026 IEEE International Conference on Smart Sustainable Systems for Computer and Engineering Applications (3SCEA)}, 
+  title={The Reasoning Gap in Automated Vulnerability Detection: A Comprehensive Benchmark of LLMs, SAST, DAST, and Graph-Based Approaches}, 
   year={2026},
-  organization={IEEE}
-}
+  volume={},
+  number={},
+  pages={585-594},
+  keywords={Modeling;Codes;Tools;Printing;Signal detection;Security;Testing;Artificial intelligence;Timing;Standards;Vulnerability Detection;Static Analysis;AI for Security;Dynamic Analysis;Graph Neural Networks;Large Language Models;Code Property Graph;Automated Vulnerability Detection},
+  doi={10.1109/3SCEA68071.2026.11603078}}
 ```
+####  Text Format
+```txt
+M. H. Ali, Y. Sakr, A. Eissa, M. Aljazairy and H. S. Rashad, "The Reasoning Gap in Automated Vulnerability Detection: A Comprehensive Benchmark of LLMs, SAST, DAST, and Graph-Based Approaches," 2026 IEEE International Conference on Smart Sustainable Systems for Computer and Engineering Applications (3SCEA), Cairo, Egypt, 2026, pp. 585-594, doi: 10.1109/3SCEA68071.2026.11603078. keywords: {Modeling;Codes;Tools;Printing;Signal detection;Security;Testing;Artificial intelligence;Timing;Standards;Vulnerability Detection;Static Analysis;AI for Security;Dynamic Analysis;Graph Neural Networks;Large Language Models;Code Property Graph;Automated Vulnerability Detection},
+```
+
 ## 📬 Contact the Authors
 This research was conducted by the Computer Engineering Department at the Arab Academy for Science and Technology (AAST), Cairo, Egypt.
-Feel free to reach out to the authors for questions, collaborations, or access to extended datasets:
+For questions, collaborations, or access to extended datasets, please contact:
 ### Medhat Hassan Ali (Lead Author / Offensive Security Engineer)
+Evaluation Framework Design • SAST Benchmarking • LLM Evaluation • Dataset Integrity Analysis
 📧 Email: Eng.MedhatHassanAli@gmail.com | 💼 LinkedIn: [in/medhat-hassan](https://www.linkedin.com/in/medhat-hassan) | 🐙 GitHub: @MedhatHassan
 ### Youssef Sakr (Co-Author / Offensive Security Engineer)
 📧 Email: Eng.Youssef.Sakr@gmail.com | 💼 LinkedIn: [/in/youssef-sakr](https://www.linkedin.com/in/youssef-sakr/) | 🐙 GitHub: @sakr00 
