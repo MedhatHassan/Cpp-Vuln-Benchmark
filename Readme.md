@@ -99,7 +99,7 @@ M. H. Ali, Y. Sakr, A. Eissa, M. Aljazairy and H. S. Rashad, "The Reasoning Gap 
 This research was conducted by the Computer Engineering Department at the Arab Academy for Science and Technology (AAST), Cairo, Egypt.
 For questions, collaborations, or access to extended datasets, please contact:
 ### Medhat Hassan Ali (Lead Author / Offensive Security Engineer)
-Evaluation Framework Design • SAST Benchmarking • LLM Evaluation • Dataset Integrity Analysis
+Evaluation Framework Design • SAST Benchmarking • LLM Evaluation • Dataset Integrity Analysis<br>
 📧 Email: Eng.MedhatHassanAli@gmail.com | 💼 LinkedIn: [in/medhat-hassan](https://www.linkedin.com/in/medhat-hassan) | 🐙 GitHub: @MedhatHassan
 ### Youssef Sakr (Co-Author / Offensive Security Engineer)
 📧 Email: Eng.Youssef.Sakr@gmail.com | 💼 LinkedIn: [/in/youssef-sakr](https://www.linkedin.com/in/youssef-sakr/) | 🐙 GitHub: @sakr00 
